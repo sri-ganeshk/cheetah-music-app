@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import Card from './card';
+import Card from './Card';
 import token from './ac';
 const SpotifySearch = () => {
   const [query, setQuery] = useState('');
